@@ -197,6 +197,8 @@ export default class Resources extends EventEmitter {
 
             // MyCustomModel
             { name: 'myCustomModelBase', source: './models/soundRoom/soundRoom.glb' },
+            // Sosyal İnovasyon Ajansı
+            { name: 'sosyalInavasyonAjansiBase', source: './models/sosyalInavasyonAjansi/sosyalinavasyonajans.glb' },
             
             // Tiles
             { name: 'tilesABase', source: './models/tiles/a/base.glb' },
@@ -233,6 +235,7 @@ export default class Resources extends EventEmitter {
             
             // GreenScreen Room
             { name: 'greenScreenRoomBase', source: './models/greenScreen/GreenScreenRoom.glb' },
+            // Kapsül
             { name: 'kapsulBase', source: './models/kapsul/Kapsul_BlockOut.glb' },
             // { name: 'greenScreenDesertButtonTexture', source: './models/greenScreen/desertButton.png', type: 'texture' },
             // { name: 'greenScreenSivasButtonTexture', source: './models/greenScreen/sivasButton.png', type: 'texture' },

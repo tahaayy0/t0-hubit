@@ -27,6 +27,7 @@ import Sounds from './Sounds.js'
 import gsap from 'gsap'
 import EasterEggs from './EasterEggs.js'
 import KapsulSection from './Sections/KapsulSection.js'
+import SosyalInavasyonAjansiSection from './Sections/SosyalInavasyonAjansiSection.js'
 
 export default class World {
     constructor(_options) {
@@ -433,6 +434,15 @@ export default class World {
             y: -10,
         })
         this.container.add(this.sections.kapsul.container)
+
+        // Sosyal İnovasyon Ajansı
+        this.sections.sosyalInavasyonAjansi = new SosyalInavasyonAjansiSection({
+            ...options,
+            materials: this.materials,
+            x: 25,
+            y: 0
+        })
+        this.container.add(this.sections.sosyalInavasyonAjansi.container)
     }
 
     setEasterEggs() {
